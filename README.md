@@ -1,7 +1,8 @@
 # Getting Started with Create React App
 
-![Project Logo](images/logo.png)
+![Project Image1](images/Screenshot_1.png)
 
+![Project Image2](images/Screenshot_2.png)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
