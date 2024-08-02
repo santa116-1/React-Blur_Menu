@@ -63,7 +63,7 @@ const App = () => {
           </div>
         </div>
 
-        <div className=" p-3 h-[20%] flex items-center justify-center">
+        <div className={`p-3 h-[20%] ${isOpen?  "": " flex items-center justify-center"}`}>
           <div className={`flex flex-col items-center rounded-lg  ${isOpen ? 'bg-white py-3 gap-3' : ''} cursor-pointer hover:shadow-lg transition`}>
             <img className="w-6 h-6" src="https://img.icons8.com/ios-filled/50/add--v1.png" alt="Create new task" />
             {isOpen && (
