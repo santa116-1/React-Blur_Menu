@@ -23,7 +23,7 @@ const App = () => {
 
   return (
     <div className="h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(https://darksoul-git.github.io/Blurred%20Side%20Navigation%20bar/windows-11-gradient-background-bloom-light-backgrounds-5k.png)' }}>
-      <div className={`transition-all duration-900 ${isOpen ? 'w-[250px]' : 'w-[60px]'} h-[650px] bg-white bg-opacity-60 rounded-2xl border border-white backdrop-blur-lg flex flex-col`}>
+      <div className={`transition-all duration-900 ${isOpen ? 'w-[250px]' : 'w-[60px]'} h-[650px] bg-opacity-60 rounded-2xl border border-white backdrop-blur-lg flex flex-col`}>
         <div className="flex h-[20%] w-full m-auto">
           <div className="flex items-center w-[70%] space-x-4 ml-3 -mr-2">
             <div className="w-10 h-10 rounded-full bg-white overflow-hidden">
